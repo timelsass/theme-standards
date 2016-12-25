@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/timelsass/theme-standards/issues"
   },
-  "homepage": "https://github.com/timelsass/theme-standards#readme"
+  "homepage": "https://github.com/timelsass/theme-standards#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.0",
+    "postcss-cli": "^2.6.0"
+  }
 }
