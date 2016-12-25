@@ -1,0 +1,16 @@
+#!/bin/sh
+if ! linter="$(type -p "stylelint")" || [ -z "stylelint" ];
+  then
+    STYLELINT=1;
+elif ! linter="$(type -p "csslint")" || [ -z "csslint" ];
+  then
+    CSSLINT=1;
+fi
+if [ -z "$STYLELINT" ];
+  then
+    echo "stylelint";
+fi
+if [ -z "$CSSLINT" ];
+  then
+    echo "csslint";
+fi
