@@ -1,0 +1,24 @@
+{
+  "name": "theme-standards",
+  "version": "1.0.0",
+  "description": "Theme standards and configurations for BoldGrid Theme Framework based WordPress themes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timelsass/theme-standards.git"
+  },
+  "keywords": [
+    "Wordpress",
+    "Themes",
+    "Standards"
+  ],
+  "author": "Tim Elsass",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/timelsass/theme-standards/issues"
+  },
+  "homepage": "https://github.com/timelsass/theme-standards#readme"
+}
